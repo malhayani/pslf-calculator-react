@@ -1,0 +1,179 @@
+.pslf-calculator {
+    font-family: 'Lato';
+    color: #444;
+    width: 90%;
+    margin: auto;
+}
+
+.pslf-title {
+    font-size: 3em;
+}
+
+.card-container-title {
+    text-align: left;
+    font-size: 1.75em;
+    margin-bottom: 0em !important;
+}
+
+.card-container-subtitle {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em !important;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.fa-check-square {
+    color: #32748d;
+    font-size: 1.5em !important;
+    vertical-align: middle;
+}
+
+.fa-square-o {
+    color: #888;
+    font-size: 1.5em !important;
+    vertical-align: middle;
+}
+
+.boolean-lbl {
+    margin-left: 1em !important;
+}
+
+.number-input {
+    margin-left: 1em;
+}
+
+.inline-input {
+    display: inline-block !important;
+    width: 3em !important;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    border: 1px solid #ddd !important;
+}
+
+.increase-btn {
+    user-select: none;
+    cursor: pointer;
+    background-color: #32748d;
+    line-height: 1.75em !important;
+    width: 1.75em !important;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 0.5em;
+}
+
+.decrease-btn {
+    user-select: none;
+    cursor: pointer;
+    background-color: #32748d;
+    line-height: 1.75em !important;
+    width: 1.75em !important;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 0.5em;
+}
+
+.dropdown-label {
+    width: 3em;
+}
+
+.dropdown-style {
+    width: 7.1em;
+    margin-left: 1em;
+    background-color: #fff !important;
+    color: #666 !important;
+    font-size: 1em !important;
+    border: 1px solid #ddd !important;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-style::after {
+    margin-top: 0.5em;
+    font-size: 1.25em !important;
+    float: right;
+    color: #32748d;
+}
+
+.dropdown-menu {
+    min-width: 7em !important;
+    text-align: center !important;
+}
+
+.dialogue {
+    display: block;
+    font-size: 1.75em;
+}
+
+.dialogue-continue-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 3em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+}
+
+.continue-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+    float: right;
+}
+
+.back-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #e19849 !important;
+    border-color: #e19849 !important;
+    float: left;
+}
+
+.input-section {
+    margin-bottom: 1.5em;
+}
+
+.input-section > label {
+    font-size: 1.2em;
+}
+
+.progress-bar {
+    background-color: #32748d !important;
+}
+
+.start-over-btn {
+    display: block !important;
+    margin: auto;
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+}
+
+.income-section-header {
+    text-align: center;
+}
+
+.helper-text {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+.income-input-section {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.income-input-lbl {
+    width: 17em;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.income-input {
+    width: 10em !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+}
