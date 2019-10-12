@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import TextInput from '../TextInput';
 import BooleanInput from '../BooleanInput';
 import NumberInput from '../NumberInput';
 import DropdownInput from '../DropdownInput';
