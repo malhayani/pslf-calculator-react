@@ -27,13 +27,13 @@
 
 .fa-check-square {
     color: #32748d;
-    font-size: 1.5em !important;
+    font-size: 1.25em !important;
     vertical-align: middle;
 }
 
 .fa-square-o {
     color: #888;
-    font-size: 1.5em !important;
+    font-size: 1.25em !important;
     vertical-align: middle;
 }
 
@@ -51,30 +51,34 @@
     text-align: center;
     cursor: pointer;
     background-color: #fff !important;
-    border-radius: 3px !important;
+    border-radius: 0px !important;
     border: 1px solid #ddd !important;
+    font-size: 0.9em !important;
+    height: 2.25em !important;
 }
 
 .increase-btn {
+    vertical-align: top;
     user-select: none;
     cursor: pointer;
     background-color: #32748d;
-    line-height: 1.75em !important;
-    width: 1.75em !important;
+    line-height: 2.25em !important;
+    width: 1.9em !important;
     color: #fff;
-    border-radius: 3px;
-    margin-left: 0.5em;
+    border-radius: 0em .4em .4em 0em;
+    font-size: 0.9em !important;
 }
 
 .decrease-btn {
+    vertical-align: top;
     user-select: none;
     cursor: pointer;
     background-color: #32748d;
-    line-height: 1.75em !important;
-    width: 1.75em !important;
+    line-height: 2.25em !important;
+    width: 1.9em !important;
     color: #fff;
-    border-radius: 3px;
-    margin-right: 0.5em;
+    border-radius: .4em 0em 0em .4em;
+    font-size: 0.9em !important;
 }
 
 .dropdown-label {
@@ -82,11 +86,10 @@
 }
 
 .dropdown-style {
-    width: 7.1em;
     margin-left: 1em;
     background-color: #fff !important;
     color: #666 !important;
-    font-size: 1em !important;
+    font-size: 0.9em !important;
     border: 1px solid #ddd !important;
     margin-bottom: 0.5em;
 }
@@ -98,9 +101,28 @@
     color: #32748d;
 }
 
+.dropdown-sm {
+    width: 13.5em;
+    height: 2.25em !important;
+}
+
+.dropdown-md {
+    margin-left: 0px;
+    width: 15em;
+    height: 2.25em !important;
+}
+
 .dropdown-menu {
-    min-width: 7em !important;
+    min-width: 12.15em !important;
     text-align: center !important;
+    max-height: 10em; 
+    overflow-y: scroll;
+}
+
+.dropdown-item:focus {
+    outline: none;
+    border: none;
+    background-color: #32748d !important;
 }
 
 .dialogue {
@@ -123,6 +145,14 @@
     float: right;
 }
 
+.add-loan-btn {
+    font-size: 0.9em !important;
+    padding: 0.25em 1em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+    margin: 1em 0em 2em 0em;
+}
+
 .back-btn {
     font-size: 1.25em !important;
     padding: 0.25em 1.5em !important;
@@ -132,11 +162,16 @@
 }
 
 .input-section {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+    display: block;
 }
 
 .input-section > label {
-    font-size: 1.2em;
+    font-size: 1em;
+}
+
+button.dropdown-item {
+    font-size: 0.9em;
 }
 
 .progress-bar {
@@ -156,24 +191,168 @@
     text-align: center;
 }
 
+label {
+    margin-bottom: 0em;
+}
+
 .helper-text {
     font-size: 0.75em;
     font-style: italic;
+    margin-bottom: 0em;
+}
+
+.input-income {
+    width: 13.5em !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+    height: 2em !important;
+    padding: 0em 0.5em !important;
 }
 
 .income-input-section {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: 1.75em;
 }
 
 .income-input-lbl {
-    width: 17em;
-    text-align: right;
-    margin-right: 1em;
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 17em;
 }
 
-.income-input {
-    width: 10em !important;
+.input-loan{
+    width: 13.5em !important;
     display: inline-block !important;
     border-color: #ddd !important;
+    height: 2em !important;
+    padding: 0em 0.5em !important;
+}
+
+.loan-input-section {
+    display: inline-block !important;
+    margin-bottom: 0.5em;
+    max-width: 70em;
+    min-width: 15em;
+}
+
+.loan-input-section > .input-section{
+    display: inline-block !important;
+    max-width: 24%;
+    min-width: 15em;
+}
+
+.loan-input-lbl {
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 15em;
+}
+
+.input-interest{
+    width: 100% !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+    height: 2em !important;
+    padding: 0em 0.5em !important;
+}
+
+section.interest-input-section {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+.interest-input-lbl {
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 8em;
+}
+
+.delete-loan-btn {
+    color: #e19849;
+    font-size: 1.25em !important;
+    cursor: pointer;
+}
+
+.delete-loan-btn-gray {
+    color: #b3b3b3;
+    font-size: 1.25em !important;
+    cursor: pointer;
+}
+
+.loan-line-break {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+.delete-icon-placeholder {
+    color: transparent !important;
+    cursor: default;
+}
+
+.delete-loan-section {
+    display: inline-block;
+    width: 13%;
+}
+
+.error-lbl {
+    color: #DC143C;
+}
+
+.integer-input-section {
+    margin-bottom: 1.75em;
+}
+
+.block {
+    display: block;
+}
+
+
+.yearplan-header-row {
+    width: 50em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.yearplan-header {
+    width: 24%;
+    padding: 0em; 
+    margin: 0;
+    font-weight: bold;
+}
+
+.yearplan-row {
+    width: 50em;
+    margin: auto;
+}
+
+.yearplan-row > .input-section{
+    display: inline-block;
+    width: 24%;
+    text-align:center;
+}
+
+.yearplan-lbl {
+    display: inline-block;
+    width: 24%;
+}
+
+input[name=year] {
+    width: 5em !important;
+}
+
+.input-yearPlan {
+    text-align: center;
+    width: 95% !important;
+}
+
+.invalid-field {
+    border-color: #DC143C !important;
+}
+
+.invalid-button {
+    background-color: #DC143C !important;
 }
