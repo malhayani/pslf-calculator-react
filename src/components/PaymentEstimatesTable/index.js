@@ -49,7 +49,7 @@ const PaymentEstimatesTable = (props) => {
             <table className="payments-estimate-table">
                 <thead>
                     <tr>
-                        <th colspan="6" className="payments-estimate-table-title">{props.header}</th>
+                        <th colSpan="6" className="payments-estimate-table-title">{props.header}</th>
                     </tr>
                     <tr>
                         <th className="payment-estimates-table-header">Time<br/>Period</th>
