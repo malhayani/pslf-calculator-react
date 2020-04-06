@@ -11,7 +11,7 @@ class RefiPaymentPlan extends PaymentPlan {
     // Creates a 10 item payment list for refi payment plans
     calculatePayments () {
         let refiPayments = new Array(20);
-        let refiPayment = super.paymentFunction(this._interest, -(this._term * 12), (0 - super.totalLoanInfo.loanBalance));
+        let refiPayment = super.paymentFunction(this.interest, -(this.term * 12), (0 - super.totalLoanInfo.loanBalance));
         refiPayments = refiPayments.fill(refiPayment, 0, 20);
         return refiPayments;
     }

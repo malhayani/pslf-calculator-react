@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import PslfContainer from './components/PslfCalculator/PslfContainer/';
+import PslfCalculator from './layouts/PslfCalculator';
 
 function App() {
   return (
     <div className="App">
-      <PslfContainer />
+      <PslfCalculator />
     </div>
   );
 }

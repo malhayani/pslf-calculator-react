@@ -1,0 +1,461 @@
+#root {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pslf-calculator {
+    font-family: 'Lato';
+    color: #444;
+    width: 90%;
+    margin: auto;
+    min-width: 350px;
+}
+
+.pslf-title {
+    font-size: 3em;
+}
+
+.card-container-title {
+    text-align: left;
+    font-size: 1.75em;
+    margin-bottom: 0em !important;
+}
+
+.card-container-subtitle {
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em !important;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.fa-dot-circle-o {
+    color: #32748D;
+    font-size: 1.25em !important;
+    vertical-align: middle;
+}
+
+.fa-circle-o {
+    color: #CCC;
+    font-size: 1.25em !important;
+    vertical-align: middle;
+}
+
+.boolean-lbl {
+    margin-left: 1em !important;
+}
+
+.inline-input {
+    display: inline-block !important;
+    width: 2em !important;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFF !important;
+    border-radius: 0px !important;
+    border: none !important;
+    font-size: 1em !important;
+    height: 2.35em !important;
+    line-height: 2.6em !important;
+    padding: 0px !important;
+}
+
+.increase-btn {
+    vertical-align: top;
+    user-select: none;
+    cursor: pointer;
+    line-height: 2.8em !important;
+    height: 2.8em;
+    width: 1.9em !important;
+    color: #32748d;
+    border-radius: 0em .4em .4em 0em;
+    font-size: 0.9em !important;
+}
+
+.decrease-btn {
+    vertical-align: top;
+    user-select: none;
+    cursor: pointer;
+    line-height: 2.8em !important;
+    height: 2.8em;
+    width: 1.9em !important;
+    color: #32748d;
+    border-radius: .4em 0em 0em .4em;
+    font-size: 0.9em !important;
+}
+
+.dropdown-label {
+    width: 3em;
+}
+
+.dropdown-style {
+    margin-left: 1em;
+    background-color: #fff !important;
+    color: #666 !important;
+    font-size: 0.9em !important;
+    border: 1px solid #ddd !important;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-style::after {
+    margin-top: 0.5em;
+    font-size: 1.25em !important;
+    float: right;
+    color: #32748d;
+}
+
+.dropdown-sm {
+    width: 8em;
+    height: 2.25em !important;
+}
+
+.dropdown-sm + .dropdown-menu {
+    min-width: 7.15em !important;
+    text-align: center !important;
+    max-height: 8.8em; 
+    overflow-y: scroll;
+}
+
+.dropdown-md {
+    margin-left: 0px;
+    width: 15em;
+    height: 2.25em !important;
+}
+
+.dropdown-md + .dropdown-menu {
+    min-width: 12.15em !important;
+    text-align: center !important;
+    max-height: 10em; 
+    overflow-y: scroll;
+}
+
+.dropdown-item:focus {
+    outline: none;
+    border: none;
+    background-color: #32748d !important;
+}
+
+.dialogue {
+    display: block;
+    font-size: 1.75em;
+}
+
+.dialogue-continue-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 3em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+}
+
+.continue-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+    float: right;
+}
+
+.add-loan-btn {
+    font-size: 0.9em !important;
+    padding: 0.25em 1em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+    margin: -1.5em 0em 2em 0em;
+}
+
+.back-btn {
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #e19849 !important;
+    border-color: #e19849 !important;
+    float: left;
+}
+
+.input-section {
+    margin-bottom: 1em;
+    display: block;
+}
+
+.input-section > label {
+    font-size: 1em;
+}
+
+button.dropdown-item {
+    font-size: 0.9em;
+}
+
+.progress-bar {
+    background-color: #32748d !important;
+}
+
+.start-over-btn {
+    display: block !important;
+    margin: auto;
+    font-size: 1.25em !important;
+    padding: 0.25em 1.5em !important;
+    background-color: #32748d !important;
+    border-color: #32748d !important;
+}
+
+.income-section-header {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 0em;
+}
+
+.helper-text {
+    font-size: 0.75em;
+    font-style: italic;
+    margin-bottom: 0em;
+}
+
+.input-income {
+    text-align: right;
+    width: 8em !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+    height: 2em !important;
+    padding: 0em 0.5em !important;
+}
+
+.income-input-section {
+    display: block;
+    margin-bottom: 1.75em;
+}
+
+.income-input-lbl {
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 17em;
+}
+
+.input-loan{
+    width: 13.5em !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+    height: 2em !important;
+    padding: 0em 0.5em !important;
+    text-align: right;
+}
+
+.loan-input-section {
+    display: inline-block !important;
+    margin-bottom: 0.5em;
+    max-width: 100%;
+    min-width: 15em;
+}
+
+.input-container {
+    width: 50%;
+    min-width: 17em;
+    display: inline-block;
+}
+
+.loan-input-section > .input-container > .input-section{
+    display: inline-block;
+    width: 48%;
+    min-width: 15em;
+}
+
+.loan-input-section > .input-section{
+    display: inline-block;
+    width: 48%;
+    min-width: 15em;
+}
+
+.loan-input-lbl {
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 15em;
+}
+
+.input-interest{
+    width: 100% !important;
+    display: inline-block !important;
+    border-color: #ddd !important;
+    height: 2em !important;
+    text-align: right;
+    padding: 0em 0.5em !important;
+}
+
+section.interest-input-section {
+    display: inline-block;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+.interest-input-lbl {
+    text-align: center;
+    margin: auto;
+    display: block;
+    min-width: 8em;
+}
+
+.delete-loan-btn {
+    color: #e19849;
+    font-size: 1.25em !important;
+    cursor: pointer;
+}
+
+.delete-loan-btn-gray {
+    color: #b3b3b3;
+    font-size: 1.25em !important;
+    cursor: pointer;
+}
+
+.loan-line-break {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+.delete-icon-placeholder {
+    color: transparent !important;
+    cursor: default;
+}
+
+.delete-loan-section {
+    display: inline-block;
+    width: 13%;
+}
+
+.error-lbl {
+    color: #DC143C;
+}
+
+.integer-input-section {
+    margin-bottom: 1.75em;
+}
+
+.block {
+    display: block;
+}
+
+
+.yearplan-header-row {
+    width: 32em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.yearplan-header {
+    width: 8em;
+    padding: 0em; 
+    margin: 0;
+    font-weight: bold;
+}
+
+.yearplan-row {
+    width: 32em;
+    height: 2.6em;
+    line-height: 2.6em;
+    margin: auto;
+}
+
+.yearplan-row > .input-section{
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.6em;
+    text-align:center;
+}
+
+.yearplan-lbl {
+    display: inline-block;
+    width: 8em;
+}
+
+input[name=year] {
+    width: 5em !important;
+}
+
+.input-yearPlan {
+    text-align: right;
+    width: 8em !important;
+}
+
+.invalid-field {
+   color: #DC143C !important;
+}
+
+.invalid-button {
+    color: #DC143C !important;
+}
+
+.income-header {
+    min-width: 8em;
+}
+
+.size-year-header {
+    min-width: 8em;
+}
+
+.year-table-container {
+    overflow: auto;
+}
+
+.payments-table-container {
+    min-width: 50em;
+    overflow: auto;
+}
+
+.single-col-table {
+    display: inline-block;
+    width: 5em;
+    vertical-align: top;
+}
+
+.single-col-table-header {
+    font-size: 0.8em;
+}
+
+.details-btn {
+    color: #e19849 !important;
+    font-size: 0.8em !important;
+}
+
+.details-btn:focus {
+    box-shadow: none !important;
+}
+
+.details-btn:hover {
+    text-decoration: underline !important;
+}
+
+.payments-table-container {
+    width: 100%;
+}
+
+.payment-estimates-table-header {
+    font-size: 0.75em;
+    min-width: 10em;
+    background-color: #32748d;
+    color: #FFF; 
+    border: 1px solid #ddd;
+}
+
+.payment-estimates-table-data {
+    font-size: 0.9em;
+    border: 1px solid #ddd;
+    padding: 0.25em;
+}
+
+.payments-estimate-table {
+    margin: auto;
+}
+
+.payments-estimate-table-title {
+    width: 100%;
+    background-color: #32748d;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.15em;
+    margin-bottom: 0px;
+    margin-top: 1em;
+}
